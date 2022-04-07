@@ -24,12 +24,17 @@ example
 shows a navbar with state (index), changes on tap, but can reset back when app restarts.
 
 ##### App state
-[App State vs Ephermal](https://docs.flutter.dev/assets/images/docs/development/data-and-backend/state-mgmt/ephemeral-vs-app-state.png)
+![App State vs Ephermal](https://docs.flutter.dev/assets/images/docs/development/data-and-backend/state-mgmt/ephemeral-vs-app-state.png)
 
 
 When asked about React’s setState versus Redux’s store, the author of Redux, Dan Abramov, replied:
 
 “The rule of thumb is: Do whatever is less awkward.”
+
+#### Simple state management
+https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple#lifting-state-up
+Keep the state above the widgets that use it.
+
 
 
 

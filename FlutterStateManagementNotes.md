@@ -35,6 +35,29 @@ When asked about React’s setState versus Redux’s store, the author of Redux,
 https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple#lifting-state-up
 Keep the state above the widgets that use it.
 
+- Where should shared state be kept?
+location of shared state should be above the widgets that use it.
+idea is to change the data not the ui.
+ui always adapts/reacts to any change in data.
+
+as we discussed
+Ui = f(state)
+
+
+- How to access the state?
+
+using provider library
+avoid InheritedWidgets
+
+using 3 classes
+
+ChangeNotifier: for model class, storing shared state
+
+ChangeNotifierProvider: for creating and providing shared state to descendends, placed at the parent widgets
+
+Consumer: _pending_
+
+
 
 
 

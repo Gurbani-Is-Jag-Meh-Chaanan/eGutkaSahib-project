@@ -52,10 +52,47 @@ avoid InheritedWidgets
 using 3 classes
 
 ChangeNotifier: for model class, storing shared state
+*notifyListeners* is to be called after data changes.
 
 ChangeNotifierProvider: for creating and providing shared state to descendends, placed at the parent widgets
 
-Consumer: _pending_
+
+Consumer: 
+to get state data into a widget we wrap it with Consumer
+it uses a builder, and optional child if the widget has an expensive
+subtree.
+ideally consumer should wrap as deep in tree as possible.
+
+can use Provider.of to use the mode but not the data, example member functions.
+
+
+can use this for easier state management
+
+https://pub.dev/packages/get
+
+https://github.com/jonataslaw/getx#about-get
+
+getx seems easy for 
+  About Get
+  Installing
+  Counter App with GetX
+  The Three pillars
+  State management
+  Reactive State Manager
+  More details about state management
+  Route management
+  More details about route management
+  Dependency management
+  More details about dependency management
+  Utils
+  Internationalization
+  Translations
+  Using translations
+
+shall complete documentation,
+also checkout counter app
+
+
 
 
 

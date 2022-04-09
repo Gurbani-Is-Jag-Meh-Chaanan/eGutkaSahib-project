@@ -97,6 +97,14 @@ GetBuilder, live provider, for ephermal state
 Getx with Obs, for shared state for reactive programming to change value, based on streams
 
 
+obs with bindings can be used for clean code
+
+or just getx
+
+i think we should get started and stop worrying 
+
+start going with getx.
+Babaji aap karwa lo ji.
 
 
 

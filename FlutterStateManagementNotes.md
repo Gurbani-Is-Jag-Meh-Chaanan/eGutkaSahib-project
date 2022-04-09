@@ -72,7 +72,8 @@ https://pub.dev/packages/get
 
 https://github.com/jonataslaw/getx#about-get
 
-getx seems easy for 
+getx seems easy for  state management and more
+
   About Get
   Installing
   Counter App with GetX
@@ -91,6 +92,12 @@ getx seems easy for
 
 shall complete documentation,
 also checkout counter app
+
+GetBuilder, live provider, for ephermal state
+Getx with Obs, for shared state for reactive programming to change value, based on streams
+
+
+
 
 
 

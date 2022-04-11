@@ -107,6 +107,10 @@ start going with getx.
 Babaji aap karwa lo ji.
 
 
+GetBuilder is used for simple statemanagement
+Getx is used for reactive management when something needs to be done on reaction of value change,
+we shall discover as we go along with coding.
+
 
 
 

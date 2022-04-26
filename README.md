@@ -2,7 +2,7 @@
 eGutkaSahib Project
 
 - [ ] Hardware
-    - [ ] [Minimum hardware specifications](/phase1_hardware_specifcations.md)
+    - [ ] [Minimum hardware specifications for suppliers](/phase1_hardware_specifcations.md)
     
 
 - [ ] Software
